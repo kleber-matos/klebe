@@ -1,74 +1,95 @@
 
-body {
-  background-image: url('https://cdn.pixabay.com/photo/2017/03/22/17/37/barber-2165745_960_720.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-}
 
 
-
-form{
-    background-color: white;
-    background: rgb(143, 142, 142);
-    max-width: 500px;
-    width: 70%;
-    padding: 20px;
-    border-radius: 10px;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    
-}
-
-form h3{
-    text-align: center;
-    color: rgb(0, 0, 0);
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 2em;
-}
-
-.login{
+table{
     width: 100%;
-    height: 45px;
-    padding-left: 10px;
-    margin: 10px 0;
-    border: 1px solid #ccc;
+    border:none;
+    background-color: rgba(224, 224, 224, 0.568);
 }
 
-.enviar{
-    width: 100%;
-    height: 30px;
-    cursor: pointer;
-    color: rgb(255, 255, 255);
-    background-color: rgb(0, 102, 255);
-    border: 0;
-    border-radius: 10px;
-
+.esquerda{
+  padding: 10;
 }
 
-.enviar:hover{
-    background-color:rgba(0, 102, 255, 0.74) ;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.507);
+ 
 }
 
-.login:focus{
-    outline: 0;
+li {
+  float: left;
 }
 
-.entrar-com{
-    margin: 5px 0;
-    width: 100%;
-    height: 30px;
-    cursor: pointer;
-    color: rgb(255, 255, 255);
-    background-color: rgb(0, 102, 255);
-    border: 0;
-    border-radius: 10px;
-}
-
-.entrar-com:hover{
-    background-color:rgba(0, 102, 255, 0.74) ;
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+ 
 }
 
 
+
+.active {
+  background-color: #fc2020be;
+  border-radius: 20px;
+  margin: 3;
+}
+
+.active:hover{
+  color: white;
+}
+
+.logo{
+  margin: 3;
+}
+
+.logo:hover{
+  color: white;
+  border-radius: 20px;
+}
+
+.entrar:hover{
+ color: black;
+ transition: 0.5s;
+}
+
+.nome{
+  font-size: 3em;
+  margin: 20;
+ font-family: sans-serif;
+}
+
+.perfil{
+  width: 50px;
+  margin-left: 28;
+}
+
+.seguidores{
+  margin-left: 28;
+}
+
+.rodape{
+  background-color: black;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+
+ th{
+   padding: 30;
+ }
+
+ td{
+   padding: 30;
+ }
+
+ .pagination {
+  background-color: white;
+}
